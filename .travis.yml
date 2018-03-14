@@ -1,6 +1,6 @@
-./configure && make && make test
 language: cpp
-script: scons
-compiler:  
-- clang 
-- gcc
+compiler: gcc
+
+script:
+- g++ main.cpp -o travis_gcc_cpp98
+- ./travis_gcc_cpp98
