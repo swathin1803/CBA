@@ -5,7 +5,7 @@ class Wiper//Base class1: Wiper class
 {
 public:
     //Data members of Wiper class
-    int engine_state=0;
+    int engine_state;
     int sense;
     char mode;
     //Member Functions of Wiper class
